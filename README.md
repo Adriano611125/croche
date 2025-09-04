@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encantos em Crochê</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #222;
+      text-align: center;
+    }
+    header {
+      background: linear-gradient(135deg, #000000, #1e3a8a, #dc2626);
+      padding: 25px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 30px;
+      color: #fff;
+      font-weight: bold;
+    }
+    header p {
+      margin: 8px 0 0;
+      font-size: 16px;
+      color: #f3f3f3;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    h2 {
+      font-size: 26px;
+      margin-bottom: 25px;
+      color: #1e3a8a;
+      font-weight: bold;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .item {
+      background: #fff;
+      border: 2px solid #1e3a8a;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+    .item:hover {
+      transform: translateY(-5px);
+      border-color: #dc2626;
+    }
+    .item img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+    .item p {
+      margin: 12px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #000;
+    }
+    .cta {
+      margin: 50px 0;
+    }
+    .cta a {
+      display: inline-block;
+      background: #dc2626;
+      color: white;
+      padding: 15px 35px;
+      border-radius: 35px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: background 0.3s, transform 0.2s;
+    }
+    .cta a:hover {
+      background: #b91c1c;
+      transform: scale(1.05);
+    }
+    .sobre {
+      background: #fff;
+      max-width: 900px;
+      margin: 0 auto 40px;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: justify;
+      line-height: 1.6;
+    }
+    .formulario {
+      background: #1e3a8a;
+      color: #fff;
+      padding: 40px 20px;
+      border-radius: 12px;
+      max-width: 700px;
+      margin: 0 auto 50px;
+    }
+    .formulario h2 {
+      color: #fff;
+      margin-bottom: 15px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    input {
+      padding: 12px;
+      border-radius: 8px;
+      border: none;
+      font-size: 16px;
+    }
+    button {
+      background: #dc2626;
+      color: #fff;
+      padding: 14px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #b91c1c;
+    }
+    .depoimentos {
+      background: #e5e7eb;
+      padding: 40px 20px;
+    }
+    .depoimentos .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      font-style: italic;
+    }
+    .promo {
+      background: #1e3a8a;
+      color: #fff;
+      padding: 40px 20px;
+      border-radius: 12px;
+      max-width: 900px;
+      margin: 0 auto 50px;
+    }
+    .promo h2 {
+      color: #fff;
+      margin-bottom: 15px;
+    }
+    footer {
+      background: #000;
+      padding: 15px;
+      font-size: 14px;
+      color: #f3f3f3;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Encantos em Crochê</h1>
+    <p>Peças exclusivas feitas à mão</p>
+  </header>
+
+  <!-- Produtos -->
+  <section>
+    <h2>Nossos Destaques</h2>
+    <div class="grid">
+      <div class="item">
+        <img src="https://via.placeholder.com/400x300/1e3a8a/ffffff?text=Bolsa+Crochê" alt="Bolsa de crochê">
+        <p>Bolsa artesanal em crochê</p>
+      </div>
+      <div class="item">
+        <img src="https://via.placeholder.com/400x300/dc2626/ffffff?text=Tapete+Crochê" al
